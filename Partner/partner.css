@@ -346,7 +346,7 @@ button+h1{
     width:15cm;
     margin: auto;
     height:4cm;
-    border:1px solid black;
+   
     margin-top: 2cm;
     margin: auto;
 
@@ -380,4 +380,61 @@ button+h1{
     font-size: 17px;
     
      
-}    
+}
+#top-8{
+   width:60%;
+   height:15cm;
+   
+   
+   margin: auto;
+   margin-top: 2cm;
+}
+#top-8>h1{
+  text-align: center;
+}
+select{
+   margin:auto;
+   height:2cm;
+   width:17cm;
+   margin-top: 1cm;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   border: 1px solid white;
+}
+
+option>h3{
+   font-weight: 400;
+}
+#top-9{
+   width:15cm;
+   height:2cm;
+  
+   margin: auto;
+
+}
+#top-9>h1{
+   font-size: 36px;
+   text-align: center;
+}
+#top-10{
+   width:50%;
+   height:auto;
+   
+   margin: auto;
+   margin-top: 1.5cm;
+}
+#top-10>p{
+   text-align: center;
+   font-size: 17px;
+   color: #64648c;
+}
+.btn{
+   width:6cm;
+   height:1.7cm;
+   display: block;
+   margin: auto;
+   color: #ffffff;
+   background-color: #651Aba;
+   margin-top: 1cm;
+   border: 1px solid #651Aba;
+   font-size: 17px;
+}
