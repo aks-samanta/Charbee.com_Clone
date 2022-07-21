@@ -139,22 +139,6 @@ let navbar= ()=>{
                             <p>Champions of Change</p>
                           </a>
                           <a href="#">Link 3</a>
-
-
-                          
-
-
-
-
-
-
-
-
-
-
-
-
-
                         </div>
                       </div>
         
@@ -182,5 +166,6 @@ let navbar= ()=>{
     </div>
         `
 }
+// document.querySelector("body").innerHTML=navbar();
+// export {navbar}
 
-export {navbar}
