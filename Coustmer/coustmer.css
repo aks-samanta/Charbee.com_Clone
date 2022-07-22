@@ -12,7 +12,7 @@
 #top-1>div:nth-child(1){
     width:10cm;
     height:7cm;
-    border: 1px solid black;
+    
     margin-top: 1cm;
     
     
@@ -148,7 +148,7 @@
 #top-3{
     height:1.5cm;
     width:80%;
-    border:1px solid black;
+    
     
     margin:auto;
     margin-top: 3cm;
@@ -158,32 +158,35 @@
 #top-3>div{
     width:5cm;
     height:100%;
-    border:1px solid black;
+    
 
 }
 #top-3>div>img{
     width:100%;
-    height:100%;
+    height:90%;
 }
 
 #top-4{
     margin-top: 2cm;
     width:80%;
     height:9cm;
-    border:1px solid black;
+    
     margin: auto;
     margin-top: 2cm;
-    justify-content: space-between;
+    
+    display: flex;
 }
 #top-4>div:nth-child(1){
     display: flex;
     width:65%;
     height:100%;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .pics{
     width:60%;
     height:100%;
-    border:1px solid black;
+    
 }
 .pics>img{
     width:100%;
@@ -192,15 +195,15 @@
 .info{
     width:70%;
     height:100%;
-    border:1px solid black;
+    
     background-color: purple;
 }
 .logo1{
     width:5cm;
-    height:1.5cm;
-    border:1px solid blue;
+    height:1.2cm;
+    
     margin-top: 1.5cm;
-    margin-left: 1cm;
+    margin-left: 1.5cm;
 }
 .logo1>img{
     width:100%;
@@ -209,7 +212,7 @@
 .info>div:nth-child(2){
     width:70%;
     height:4cm;
-    border:2px solid black;
+    
     margin: auto;
 }
 .info>div:nth-child(2)>p{
@@ -219,9 +222,52 @@
     line-height: 32px;
     color: #FFFFFF;
 }
-#top-4>div:nth-child(2)>div{
-    width:3cm;
+#top-4>div:nth-child(2)>div:nth-child(1){
+    width:4cm;
     height: 1cm;
-    border:1px solid black;
+    
+    margin-left: 1cm;
+    margin-top: 1cm;
 
+}
+#top-4>div:nth-child(2)>div>img{
+    width:100%;
+    height:100%;
+}
+.para2{
+    width: 9cm;
+    height:5cm;
+    
+    margin-left: 1cm;
+}
+.para2>p{
+    font-size: 22px;
+    color: #212128;
+    opacity: 0.8;
+    line-height: 32px;
+    max-width: 480px;
+}
+
+.pp{
+    width:9cm;
+    height:1.2cm;
+    
+    margin-left: 1cm;
+    display: flex;
+    align-items: center;
+}
+.pp>div:nth-child(1){
+    width:1.2cm;
+    height:1.2cm;
+    
+}
+.pp>div:nth-child(1)>img{
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+}
+.pp>p{
+    font-size: 14px;
+    
+    margin-left: 0.4cm;
 }
