@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./partner.css">
     <link rel="stylesheet" href="../navbar.css">
+    
+
 
 
     <title>Partners Page</title>
@@ -251,6 +253,17 @@
         <p>Visit our Chargebee Marketplace to explore our integrations and to see what makes our subscription marketplace unique. Through our marketplace, we empower our customers and partners to leverage Chargebee as a platform for their continued growth.</p>
     </div>
     <button class="btn">Visit Our MarketPlace</button>
+    <div>
+        <div id="mainfooter">
+
+
+        </div>
+        
+        <div id="icons">
+        
+        </div>
+    </div>
+    
 
 
 </body>
@@ -258,4 +271,11 @@
 <script type="module">
         import {navbar} from '../navbar.js'
 document.querySelector("#navbar").innerHTML=navbar()
+
+import{footer,icons} from "../footer.js"
+document.querySelector("#mainfooter").innerHTML=footer()
+document.querySelector("#icons").innerHTML=icons()
+
+
+
 </script>

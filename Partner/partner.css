@@ -408,7 +408,7 @@ option>h3{
 #top-9{
    width:15cm;
    height:2cm;
-  
+   
    margin: auto;
 
 }
@@ -438,4 +438,36 @@ option>h3{
    margin-top: 1cm;
    border: 1px solid #651Aba;
    font-size: 17px;
+}
+
+div>#mainfooter{
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-around;
+}
+div>#mainfooter>div>p>a{
+text-decoration: none;
+color: rgb(64, 60, 60)
+}
+div>#mainfooter>div>p>a:hover{
+   margin-left: 10px;
+   transition: .2s ease-out;
+   font-weight: bold;
+}
+
+
+
+div>#icons{
+   margin-top: 63px;
+   margin-left: 1130px;
+   display: grid;
+   grid-template-columns: repeat(4, 35px);
+   grid-template-rows:repeat(1, 35px) ;
+   gap: 10px;
+   width: 170px;
+   height: 180px;
+}
+div>#icons>a>img{
+   width: 20px;
+   height: 20px;
 }
