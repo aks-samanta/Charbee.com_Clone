@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="navbar.css">
+      <!-- Compiled and minified CSS -->
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+      <!-- Compiled and minified JavaScript -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 </head>
 <body>
     <div id="navbar">
@@ -40,14 +46,14 @@
             <p>CFO - Rise Vision</p>
         </div>
     </div>
-    <div id="heading">
+    <div id="heading" onclick="scrolllef()">
         <div>
-            <button class="left-button" onclick="scrolllef()">
+            <!-- <button class="left-button" >
                 <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
             </button>
             <button class="right-button" onload="scrollright()" onclick="scrollrigh()">
                 <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
-            </button>
+            </button> -->
             <div id="statements">
                 <div><h1>The subscription management platform that enabled Slidebean to slide into 30+ countries.</h1></div>
                 <div><h1>The billing platform that gives Superfoods the freedom to test, iterate, and roll-back.</h1></div>
@@ -72,7 +78,14 @@
     </div>
 
 
+    <div>
+        <div>        
+            <marquee behavior="scroll" direction="left">
+            <img src="	https://webstatic.chargebee.com/assets/web/510/images/customers/logos/logos-sprite.png" alt="Natural" />
+          </marquee>
+        </div>
 
+    </div>
 
 
     <div id="sections">
@@ -138,7 +151,8 @@
             While the MRR just keeps rolling.                
         </p>
     </div>
-    <div id="nav">
+    <div  id="nav">
+
         <div onclick="myFunction()">Subscription Automation</div>
         <div onclick="myFunction2()">Biling Experiments</div>
         <div>Revenue Intelegent</div>
@@ -368,17 +382,30 @@ document.querySelector("#icons").innerHTML=icons()
         let mainDi = document.querySelector("#imgs")
 
     for(let i=0; i<5; i++ ){
-        function scrollright() {
-        mainDiv.scrollLeft += 500;
-        mainDi.scrollLeft += 500;
-        mainD.scrollLeft += 33;
-    }
-    setInterval(scrollright, 5000)
-    if(i==4){
-         mainDiv = document.querySelector("#statements")
-         mainDi = document.querySelector("#imgs") 
-    }
-    }
+             function scrollleft() {
+         mainDiv.scrollLeft += 500;
+         mainDi.scrollLeft += 500;
+         mainD.scrollLeft += 33
+            }
+
+            setInterval(scrollleft, 2000)
+
+        }     
+
+    //         mainDiv.scrollLeft += 500;
+    //         mainDi.scrollLeft += 500;
+    //         mainD.scrollLeft += 33;
+    //     }
+    //     (scrollright, 2000)
+    // }
+        // if(i==4){
+        //     for(let i=0; i<5; i++){
+        //     mainDiv.scrollLeft += 500;
+        //     mainDi.scrollLeft += 500;
+        //     mainD.scrollLeft += 33;
+        //     }
+        // }
+    // }
 
     //         function scrollright() {
     //     mainDiv.scrollLeft += 500;
@@ -386,24 +413,20 @@ document.querySelector("#icons").innerHTML=icons()
     //     // setInterval(scrollright, 2000) 
     // }
 
-    // function scrollleft() {
-    //      mainDiv.scrollright -= 500;
-    //      mainDi.scrollLeft -= 500;
-    //      mainD.scrollLeft += 33
-    //     //  setTimeout(scrollleft, 2000)
-    // }
-    // var mainDiv = document.querySelector("#outsider")
-    function scrollrigh() {
-        mainDiv.scrollLeft += 350;
-        mainDi.scrollLeft += 500;
-        mainD.scrollLeft += 33;
-    }
 
-    function scrolllef() {
-         mainDiv.scrollLeft -= 350;
-         mainDi.scrollLeft += 500;
-        mainD.scrollLeft += 33;
-    }
+    
+    // var mainDiv = document.querySelector("#outsider")
+    // function scrollrigh() {
+    //     mainDiv.scrollLeft += 350;
+    //     mainDi.scrollLeft += 500;
+    //     mainD.scrollLeft += 33;
+    // }
+
+    // function scrolllef() {
+    //      mainDiv.scrollLeft -= 350;
+    //      mainDi.scrollLeft += 500;
+    //     mainD.scrollLeft += 33;
+    // }
         
 // let nav=document.querySelector("#nav>div")
 // nav.addEventListener("onclick",function(){
@@ -415,5 +438,13 @@ function myFunction(){
    let x= document.getElementById("subsub")
    x.style.display = "none";
 }
+
+var instance = M.Tabs.init(el, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  });
    
 </script>
