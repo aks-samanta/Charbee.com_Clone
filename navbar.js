@@ -11,7 +11,7 @@ let navbar= ()=>{
 
                     <div>
                         <h3>Subscription Management</h3>
-                        <a href="#">Overview</a href="#">
+                        <a href="overview.html">Overview</a href="#">
                         <a href="#">Create & Manage Plans</a href="#">
                         <a href="#">Pricing Management</a href="#">
                         <a href="#">Handle Trial Subscriptions</a href="#">
@@ -21,7 +21,7 @@ let navbar= ()=>{
                     </div>
                     <div>
                         <h3>Billing Automation</h3>
-                        <a href="#">Overview</a href="#">
+                        <a href="overview.html">Overview</a href="#">
                         <a href="#">Usage Based Billing</a href="#">
                         <a href="#">Invoicing Automation</a href="#">
                         <a href="#">Quotes</a href="#">
@@ -29,7 +29,7 @@ let navbar= ()=>{
                     </div>
                     <div>
                         <h3> Recurring Payments</h3>
-                        <a href="#">Overview</a href="#">
+                        <a href="overview.html">Overview</a href="#">
                         <a href="#">Multiple Payment Methods</a href="#">
                         <a href="#">Multiple Payment Gateways</a href="#">
                         <a href="#">Smart Dunning</a href="#">
@@ -39,14 +39,14 @@ let navbar= ()=>{
                     </div>
                     <div>
                         <h3>Accounting & Taxes</h3>
-                        <a href="#">Overview</a href="#">
+                        <a href="overview.html">Overview</a href="#">
                         <a href="#">Revenue Recognition</a href="#">
                         <a href="#">Manage Sales Tax</a href="#">
                         <a href="#">One-Click Reconciliation</a href="#">
                     </div>
                     <div>
                         <h3>Reporting & Analytics</h3>
-                        <a href="#">Overview</a href="#">
+                        <a href="overview.html">Overview</a href="#">
                         <a href="#">Deferred Revenue Reporting</a href="#">
                     </div>
 
@@ -121,7 +121,7 @@ let navbar= ()=>{
 
         <div id="Customers"></div>
         <div class="dropdown">
-            <a href="customers.html"><button class="dropbtn">Customers</button></a>
+            <a href="./Coustmer/coustmer.html"><button class="dropbtn">Customers</button></a>
 
         </div>
 
@@ -161,8 +161,7 @@ let navbar= ()=>{
 
 
         <div class="dropdown">
-            <button class="dropbtn">Partners</button>
-
+        <a href="./Partner/partner.html"><button class="dropbtn">Partners</button></a>
         </div>
 
     </div>
@@ -173,8 +172,8 @@ let navbar= ()=>{
             <option value="English">English</option>
             <option value="Deutsch">Deutsch</option>
         </select></div>
-    <div> <button id="login">Login ></button></div>
-    <div><button id="demo">Get a Demo ></button></div>
+    <div>  <a href="login.html"><button id="login">Login ></button></a></div>
+    <div><a href="demoBooking.html"><button id="demo">Get a Demo ></button></a></div></div>
 
 
 
