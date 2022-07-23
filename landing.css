@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #heading{
     width: 80%;
     display: flex;
@@ -176,7 +179,9 @@ box-shadow:5px 5px 8px blue;
 }
 
 
-
+body{
+    margin:auto;
+}
 
 #nav{
     display: flex;
@@ -194,8 +199,11 @@ box-shadow:5px 5px 8px blue;
     position: sticky;
     top: 0;
 }
-
-#nav>div:hover{
+#nav>div>a{
+    text-decoration: none;
+    color: black;
+}
+#nav>div>a:hover{
 color: blue;
 cursor: pointer;
 margin-bottom: 10px;
