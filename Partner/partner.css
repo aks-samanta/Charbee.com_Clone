@@ -74,7 +74,7 @@
     margin-top:-20px ;
     color: #ffffff;
     font-size: 20px;
-    border: 1px solid black;
+    
 }
 #c1>p{
     padding-left: 10px;
@@ -331,6 +331,7 @@ button+h1{
     color: #ffffff;
     margin-top: 1cm;
     font-size: 17px;
+    border:1px solid blue;
     
  }
  #top-7{
@@ -392,7 +393,7 @@ button+h1{
 #top-8>h1{
   text-align: center;
 }
-select{
+#faq>select{
    margin:auto;
    height:2cm;
    width:17cm;

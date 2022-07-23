@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./partner.css">
+    <link rel="stylesheet" href="../navbar.css">
+
+
     <title>Partners Page</title>
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
     <div id="top-1">
        <div><h3>Become a Partner</h3></div>
        <div><h3>Partner FAQ</h3></div>
@@ -215,7 +221,7 @@
     </div>
     <div id="top-8">
         <h1>Chargebee Partner Program FAQs</h1>
-        <div>
+        <div id="faq">
             <select>
            <option><h3>How do I register for the partner portal and submit leads to Chargebee?</h3></option>
            <option></option>
@@ -249,3 +255,7 @@
 
 </body>
 </html>
+<script type="module">
+        import {navbar} from '../navbar.js'
+document.querySelector("#navbar").innerHTML=navbar()
+</script>
