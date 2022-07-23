@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="navbar.css">
+      <!-- Compiled and minified CSS -->
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+      <!-- Compiled and minified JavaScript -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 </head>
 <body>
     <div id="navbar">
@@ -22,32 +28,32 @@
             <p>CTO - Slidebean</p>
         </div>
         <div>
-            <h6> Paul Kapsner,</h6>
+            <h3> Paul Kapsner,</h3>
             <p>Director, Finance & <br>
                 Operations - Superfoods</p>
         </div>
         <div>
-            <h6>Rahul Gandhi,</h6>
+            <h3>Rahul Gandhi,</h3>
             <p>CEO - MakeSpace</p>
         </div>
         <div>
-            <h6>
-                Antoine Louiset,</h6>
+            <h3>
+                Antoine Louiset,</h3>
             <p>CTO - Yousign</p>
         </div>
         <div>
-            <h6>Debbie Barrafato,</h6>
+            <h3>Debbie Barrafato,</h3>
             <p>CFO - Rise Vision</p>
         </div>
     </div>
-    <div id="heading">
+    <div id="heading" onclick="scrolllef()">
         <div>
-            <button class="left-button" onclick="scrollleft()">
+            <!-- <button class="left-button" >
                 <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
             </button>
-            <button class="right-button" onload="scrollright()">
+            <button class="right-button" onload="scrollright()" onclick="scrollrigh()">
                 <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
-            </button>
+            </button> -->
             <div id="statements">
                 <div><h1>The subscription management platform that enabled Slidebean to slide into 30+ countries.</h1></div>
                 <div><h1>The billing platform that gives Superfoods the freedom to test, iterate, and roll-back.</h1></div>
@@ -57,8 +63,8 @@
                 
             </div>
             <h3>Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</h3>
-            <button> Get a Demo </button>
-            <button>Sign up for free</button>
+            <button class="demo"> <a href="https://www.chargebee.com/schedule-a-demo/?ref=heroCTA">Get a Demo</a> </button>
+            <button class="sign"><a href="">Sign up for free</a> </button>
         </div>
         <div>
             <div id="imgs">
@@ -72,7 +78,14 @@
     </div>
 
 
+    <div>
+        <div>        
+            <marquee behavior="scroll" direction="left">
+            <img src="	https://webstatic.chargebee.com/assets/web/510/images/customers/logos/logos-sprite.png" alt="Natural" />
+          </marquee>
+        </div>
 
+    </div>
 
 
     <div id="sections">
@@ -80,6 +93,8 @@
            <h1>Designed to go Beyond Billing.</h1> 
            <p>Get the freedom to experiment, launch, and scale strategies as fast as you can think of them.
         </p>
+        <div class="za-bg__white"></div>
+        <div class="za-bg__purple"></div>
         </div>
         <div id="sections1">
             <div>
@@ -136,9 +151,10 @@
             While the MRR just keeps rolling.                
         </p>
     </div>
-    <div id="nav">
-        <div>Subscription Automation</div>
-        <div>Biling Experiments</div>
+    <div  id="nav">
+
+        <div onclick="myFunction()">Subscription Automation</div>
+        <div onclick="myFunction2()">Biling Experiments</div>
         <div>Revenue Intelegent</div>
         <div>Extensible Platform</div>
         <div>Enterprise-Grade Security</div>
@@ -320,7 +336,7 @@
         </div>
     </div>
 </div>
-<div class="demo"> <h2>Get a Demo</h2></div>
+<!-- <div class="demo"> <h2>Get a Demo</h2></div> -->
 <div class="Robin" >
     <img src="	https://webstatic.chargebee.com/assets/web/510/images/footer/cb-quote-white.svg" alt="">
     <img src="https://webstatic.chargebee.com/assets/web/510/images/footer/robin-lambert.png" alt="">
@@ -336,54 +352,12 @@
 
 
 <div id="mainfooter">
-    <div>
-        <h2> <a href="https://www.chargebee.com/features/"></a> Product <span>></span></h2>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Subscription Management</a></p>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">ABilling and Invoicing</a></p>
-        <p><a href="https://www.chargebee.com/recurring-payments/"> Recurring Payments</a></p>
-        <p><a href="https://www.chargebee.com/saas-accounting-and-taxes/">Accounting and Taxes</a></p>
-        <p><a href="https://www.chargebee.com/saas-reporting/"> SaaS Reporting</a></p>
-        <p><a href="https://www.chargebee.com/enterprise-subscription-billing/"> Enterprise Billing</a></p>
-        <p><a href="https://www.chargebee.com/integrations/"> Integrations</a></p>
-    </div>
-    <div>
-        <h2>Help & Support <span>></span></h2>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Security</a></p>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">FAQs</a></p>
-        <p><a href="https://www.chargebee.com/recurring-payments/">Status</a></p>
-        <p><a href="https://www.chargebee.com/saas-accounting-and-taxes/">Product Documentation</a></p>
-        <p><a href="https://www.chargebee.com/saas-reporting/">API Documentaion</a></p>
-        <p><a href="https://www.chargebee.com/enterprise-subscription-billing/">Support payment gateway</a></p>
-        <p><a href="https://www.chargebee.com/integrations/"> Sitemap</a></p>
-    </div>
-    <div>
-        <h2>Resopurces <span>></span></h2>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Blog</a></p>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Compare Payment Gateway</a></p>
-        <p><a href="https://www.chargebee.com/recurring-payments/"> Tracking Payment Failures</a></p>
-        <p><a href="https://www.chargebee.com/saas-accounting-and-taxes/">Webinars</a></p>
-        <p><a href="https://www.chargebee.com/saas-reporting/">Events</a></p>
-        <p><a href="https://www.chargebee.com/enterprise-subscription-billing/">Glossaries</a></p>
-        <p><a href="https://www.chargebee.com/integrations/">Subscription Academy</a></p>
-    </div>
-    <div>
-        <h2>Company <span>></span></h2>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Customers</a></p>
-        <p><a href="https://www.chargebee.com/recurring-billing-invoicing/">Partners</a></p>
-        <p><a href="https://www.chargebee.com/recurring-payments/">Careers</a></p>
-        <p><a href="https://www.chargebee.com/saas-accounting-and-taxes/">Press</a></p>
-        <p><a href="https://www.chargebee.com/saas-reporting/"> Grand Guidelines</a></p>
-        <p><a href="https://www.chargebee.com/enterprise-subscription-billing/">Term of Service</a></p>
-        <p><a href="https://www.chargebee.com/integrations/">Privcacy Policy</a></p>
-    </div>
+
 
 </div>
 
 <div id="icons">
-<a href="https://www.facebook.com/chargebee"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051309.png" alt=""></a>
-<a href="https://twitter.com/chargebee"> <img src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt=""></a>
-<a href="https://www.youtube.com/user/ChargeBeeStudio"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt=""></a>
-<a href="https://www.linkedin.com/company/chargebee"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536569.png?token=exp=1658497534~hmac=024bdae6c399a2cab48722cfc064c021" alt=""></a>
+
 </div>
 
 
@@ -395,27 +369,43 @@
 import {navbar} from './navbar.js'
 document.querySelector("#navbar").innerHTML=navbar()
 // id=setInterval(scrollright, 2000)
+import{footer,icons} from "./footer.js"
+document.querySelector("#mainfooter").innerHTML=footer()
+document.querySelector("#icons").innerHTML=icons()
 
 
 
 
 
-
-
-        var mainDiv = document.querySelector("#statements")
-        var mainDi = document.querySelector("#imgs")
+        let mainD = document.querySelector("#names")
+        let mainDiv = document.querySelector("#statements")
+        let mainDi = document.querySelector("#imgs")
 
     for(let i=0; i<5; i++ ){
-        function scrollright() {
-        mainDiv.scrollLeft += 500;
-        mainDi.scrollLeft += 500;
-    }
-    setInterval(scrollright, 2000)
-    if(i==4){
-         mainDiv = document.querySelector("#statements")
-         mainDi = document.querySelector("#imgs") 
-    }
-    }
+             function scrollleft() {
+         mainDiv.scrollLeft += 500;
+         mainDi.scrollLeft += 500;
+         mainD.scrollLeft += 33
+            }
+
+            setInterval(scrollleft, 2000)
+
+        }     
+
+    //         mainDiv.scrollLeft += 500;
+    //         mainDi.scrollLeft += 500;
+    //         mainD.scrollLeft += 33;
+    //     }
+    //     (scrollright, 2000)
+    // }
+        // if(i==4){
+        //     for(let i=0; i<5; i++){
+        //     mainDiv.scrollLeft += 500;
+        //     mainDi.scrollLeft += 500;
+        //     mainD.scrollLeft += 33;
+        //     }
+        // }
+    // }
 
     //         function scrollright() {
     //     mainDiv.scrollLeft += 500;
@@ -423,13 +413,38 @@ document.querySelector("#navbar").innerHTML=navbar()
     //     // setInterval(scrollright, 2000) 
     // }
 
-    // function scrollleft() {
-    //      mainDiv.scrollLeft -= 500;
-    //      mainDi.scrollLeft -= 500;
-    //     //  setTimeout(scrollleft, 2000)
-    // }
-   
-        
 
+    
+    // var mainDiv = document.querySelector("#outsider")
+    // function scrollrigh() {
+    //     mainDiv.scrollLeft += 350;
+    //     mainDi.scrollLeft += 500;
+    //     mainD.scrollLeft += 33;
+    // }
+
+    // function scrolllef() {
+    //      mainDiv.scrollLeft -= 350;
+    //      mainDi.scrollLeft += 500;
+    //     mainD.scrollLeft += 33;
+    // }
+        
+// let nav=document.querySelector("#nav>div")
+// nav.addEventListener("onclick",function(){
+//     document.querySelector("#subsub")
+    
+// })
+
+function myFunction(){
+   let x= document.getElementById("subsub")
+   x.style.display = "none";
+}
+
+var instance = M.Tabs.init(el, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  });
    
 </script>

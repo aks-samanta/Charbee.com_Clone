@@ -2,6 +2,7 @@
     width: 80%;
     display: flex;
     margin: auto;
+    margin-top: -210px;
 }
 #heading>div{
     width: 4535px;
@@ -39,6 +40,7 @@ h1{
     display: flex;
     height: 464px;
     margin-left: -5px;
+    border-radius: 180px;
 }
 #imgs{
     display: flex;
@@ -61,12 +63,20 @@ h1{
     top: 223px;
     left: -57px;
     transform: rotate(270deg);
+    border-radius: 24px;
+    width: 30px;
+    border: 1px solid purple;
+    background-color: rgb(167, 140, 167)
 }
 .right-button{
     position: relative;
     top: 270px;
-    left: -98px;
+    left: -92px;
     transform: rotate(90deg);
+    border-radius: 24px;
+    width: 30px;
+    border: 1px solid purple;
+    background-color: rgb(167, 140, 167)
 }
 
 
@@ -75,6 +85,7 @@ h1{
 
 #sections{
     /* margin-bottom: 50px; */
+padding-top: 150px;
     display: flex;
     width: 80%;
     margin: auto;
@@ -114,7 +125,10 @@ h1{
     transition: all .2s ease-out;
 }
 #sections1>div:hover{
-background-color: bisque;
+/* background-color: bisque; */
+margin-top: 10px;
+box-shadow:5px 5px 8px blue;
+
 }
 #sections1>div>p{
     font-size: 18px;
@@ -142,19 +156,22 @@ background-color: bisque;
 
 #midhead{
     width: 80%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin: auto;
     height: 160px;
     align-items: center;
     display: block;
+    margin-top: 150px; 
 }
 #midhead>h1{
     display: block;
-    text-align: center
+    text-align: center;
 }
 #midhead>p{
     display: block;
-    text-align: center
+    text-align: center;
+    color: rgb(78, 75, 75);
+    font-size: 18px;
 }
 
 
@@ -166,7 +183,7 @@ background-color: bisque;
     height: 55px;
     width: 80%;
     margin: auto;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     align-items: center;
     font-size: 18px;
 
@@ -178,6 +195,10 @@ background-color: bisque;
 
 #nav>div:hover{
 color: blue;
+cursor: pointer;
+margin-bottom: 10px;
+transition: .5s ease-out;
+font-weight: bold;
 }
 #nav>div:before{
     content: "";
@@ -412,7 +433,7 @@ span{
 
 
 #mainfooter{
-    margin-top: -415px;
+    margin-top: -345px;
     display: flex;
     justify-content: space-around;
 }
@@ -420,7 +441,11 @@ span{
 text-decoration: none;
 color: rgb(64, 60, 60)
 }
-
+#mainfooter>div>p>a:hover{
+    margin-left: 10px;
+    transition: .2s ease-out;
+    font-weight: bold;
+}
 
 
 
@@ -454,13 +479,82 @@ color: rgb(64, 60, 60)
 
 
 #names{
-    border: 1px solid red;
-    width: 150px;
-    height:50px;
+    /* border: 1px solid red; */
+    width: 171px;
+    height: 133px;
     display: flex;
-    gap:20px
+    gap:20px;
+    overflow-x: auto;
+    overflow: hidden;
+    position: relative;
+    left: 1109px;
+    top: 41px;
 }
 #names>div{
     width: 150px;
     height:50px;
+   
+}
+#names>div>p{
+    width:155px;
+}
+.za-bg__purple{
+    position: relative;
+    left: -21px;
+    bottom: 35px;
+    width: 170px;
+    height: 170px;
+    z-index: 2;
+    background: radial-gradient(66.26% 66.26% at 50% 50%,rgba(253,248,244,.8) 0,rgba(225,225,225,.608333) 84.9%,rgba(253,248,244,.8) 100%);
+    border-radius: 20px;
+    transform: rotate(80deg);
+    animation: morph2 4s linear infinite alternate;
+    background-color: #1d0968;
+}
+.za-bg__white{
+    position: relative;
+    width: 240px;
+    height: 240px;
+    bottom: -30px;
+    left: 5px;
+    z-index: 1;
+    background: radial-gradient(63.23% 63.23% at 50% 50%,#5701b1 0,#ce91ff 61.99%,#fff 100%);
+    border-radius: 30px;
+    transform: rotate(80deg);
+    transition: .3s ease-in-out;
+    animation: morph 4s linear infinite alternate;
+}
+
+.demo{
+background:radial-gradient(100% 100% at 50% 50%,#5701b1 0,#ce91ff 61.99%,#fff 100%);
+color: white;
+border-radius: 30px;
+height: 50px;
+width: 185px;
+border: 1px solid purple;
+}
+.demo>a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign{
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.sign>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div>div>marquee{
+    margin-top: 160px;
+}
+body{
+    overflow-x: hidden;
 }
