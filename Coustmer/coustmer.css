@@ -8,6 +8,7 @@
     margin: auto;
     justify-content: space-between;
     display: flex;
+   
 }
 #top-1>div:nth-child(1){
     width:10cm;
@@ -17,7 +18,8 @@
     
     
 }
-#top-1>div>div>button{
+
+#top-1>div>div>a>button{
   margin-top: 1cm;
   width:5cm;
   height:1.5cm;
@@ -32,7 +34,7 @@
 #grey{
     background-color: lightgrey;
     width:100%;
-    margin-top: 2cm;
+    
 }
 #one{
     justify-content: space-between;
@@ -270,4 +272,99 @@
     font-size: 14px;
     
     margin-left: 0.4cm;
+}
+#top-5{
+   width:90%;
+   height:1.5cm;
+   display: flex;
+   margin: auto;
+   margin-top: 2cm;
+   
+}
+#top-5>div{
+    width:5cm;
+    height:70%;
+    
+    margin: auto;
+}
+#top-5>div>img{
+   width:100%;
+   height:100%;
+}
+#video{
+    width:19cm;
+    height:10cm;
+    
+    margin:auto;
+    margin-top: 3cm;
+
+}
+#top-6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto,1fr);
+    width:70%;
+    height:auto;
+    margin: auto;
+    margin-top: 2cm;
+    
+    gap:20px
+}
+#top-6>div{
+    width:90%;
+    height:6cm;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: auto;
+    background-color: #FFFFFF;
+    
+}
+#top-6>div:nth-child(1){
+    margin-top: 3cm;
+}
+#top-6>div:nth-child(2){
+    margin-top: 3cm;
+}
+
+
+#top-6>div>div{
+    width:5cm;
+    height:1.5cm;
+    
+    margin-left: 1.2cm;
+    margin-top: 0.7cm;
+
+}
+#top-6>div>div>img{
+    width:100%;
+    height:100%;
+}
+#top-6>div>div:nth-child(2){
+    width:80%;
+    height:1cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+   
+   
+}
+#top-6>div>div:nth-child(2)>h3{
+    
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+    
+    
+}
+#grey2{
+    background-color: lightgrey;
+    margin-top: 3cm;
+    width:100%;
+   
+}
+#top-7{
+
+    width:100%;
+    height:3cm;
+    background-color: lightgrey;
 }
