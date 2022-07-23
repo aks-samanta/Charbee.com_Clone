@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./coustmer.css">
-    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="coustmer.css">
+    <link rel="stylesheet" href="navbar.css">
     <title>Consumer</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
                 subscriptions for
                 businesses of all sizes.</h1>
             <div id="one">
-               <a href="../signup.html"><button>Signup for Free</button></a>
+               <a href="signup.html"><button>Signup for Free</button></a>
                 <h2>Talk to us!</h2>
             </div>
 
@@ -301,11 +301,11 @@
 </body>
 </html>
 <script type="module">
-    import {navbar} from '../navbar.js'
+    import {navbar} from './navbar.js'
 document.querySelector("#navbar").innerHTML=navbar()
 
 
-import{footer,icons} from "../footer.js"
+import{footer,icons} from "./footer.js"
 document.querySelector("#mainfooter").innerHTML=footer()
 document.querySelector("#icons").innerHTML=icons()
 </script>

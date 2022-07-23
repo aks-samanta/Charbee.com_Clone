@@ -121,6 +121,7 @@ padding-top: 150px;
     border-radius: 6px;
     box-shadow: -8px 8px 19px -8px rgb(123 127 218 / 20%);
     display: grid;
+    /* padding-left: 20px; */
     /* grid-template-rows: auto 1fr; */
     transition: all .2s ease-out;
 }
@@ -186,6 +187,7 @@ box-shadow:5px 5px 8px blue;
     /* background-color: rebeccapurple; */
     align-items: center;
     font-size: 18px;
+    backdrop-filter: blur(20px);
 
 }
 #nav{

@@ -1,6 +1,6 @@
 let navbar= ()=>{
     return `<div id="left_nav">
-    <div><a href="index.html"><img src="https://www.insightpartners.com//assets/media/2018/03/Chargebee.png"
+    <div><a href="/index.html"><img src="https://www.insightpartners.com//assets/media/2018/03/Chargebee.png"
                 alt=""></a></div>
 
     <div id="menu">
@@ -121,7 +121,7 @@ let navbar= ()=>{
 
         <div id="Customers"></div>
         <div class="dropdown">
-            <a href="./Coustmer/coustmer.html"><button class="dropbtn">Customers</button></a>
+            <a href="coustmer.html"><button class="dropbtn">Customers</button></a>
 
         </div>
 
@@ -158,10 +158,10 @@ let navbar= ()=>{
             </div>
         </div>
 
-
+       
 
         <div class="dropdown">
-        <a href="./Partner/partner.html"><button class="dropbtn">Partners</button></a>
+        <a href="partner.html"><button class="dropbtn">Partners</button></a>
         </div>
 
     </div>

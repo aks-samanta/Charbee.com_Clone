@@ -121,7 +121,8 @@
         border-radius: 5px;
     }
     #demo_book:hover{
-        background-color: rgb(69,0,165);
+        background: rgb(69,0,165);
+        cursor: pointer;
     }
     #comp{
         display: flex;
@@ -284,3 +285,39 @@
     <div class="lm-shield-container" role="button"><span class="sr-only">Your cookie settings</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0e0e0e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
 </body>
 </html>
+<script>
+      let fn=()=>{
+                window.location.href="index.html"
+            }
+            let fn2=()=>{
+                tempAlert("Demo Booked !!",2500)
+            }
+    function tempAlert(msg,duration)
+{
+ var el = document.createElement("div");
+ el.setAttribute("style","position:absolute;top:25%;left:25%;background-color:purple;width:50%;height:50vh;font-size:30px;border-radius:50%;display:flex;justify-content:center;align-items:center;");
+ el.innerHTML = msg;
+ setTimeout(function(){
+  el.parentNode.removeChild(el);
+ },duration);
+ document.body.appendChild(el);
+}
+    let show_alert=()=>{
+        let inp=document.querySelectorAll("input");
+        document.querySelector("textarea").value=null;
+for(i=0;i<inp.length;i++){
+ inp[i].value=null;
+}
+
+        tempAlert("Checking Slots....",2000);
+        setTimeout(fn2,2010)
+           ;
+            setTimeout(fn,5000)
+          
+          
+       
+    }
+
+    document.querySelector("#demo_book").addEventListener("click",show_alert);
+ 
+</script>
