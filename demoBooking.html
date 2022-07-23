@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    
+    <style>
+        /* body{
+            background-image: linear-gradient(to right, rgb(69,0,165) , rgb(147,0,226));
+        } */
+    .input-icons i {
+        position: absolute;
+      
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .bg_shape{
+        position: absolute;
+        top: 0;
+        right: -100px;
+        bottom: 0;
+        left: 0;
+        border-radius: 0 0 0 100px;
+        transform: rotate(-12deg);
+        transform-origin: left;
+        height: 120%;
+        background: linear-gradient(106.71deg, #4300A3 11.13%, #6100BB 65.15%, #A700F1 96.91%);
+        z-index: -1; 
+}
+    
+    
+        textarea{
+            resize: none;
+        }
+
+    .input-icons {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+        
+    .icon {
+        padding: 10px;
+        min-width: 40px;
+       
+    }
+        
+    .input-field {
+        width: 100%;
+        padding: 10px;
+        
+    }
+    #form_and_demo{
+        display: flex;
+        background-color:inherit;
+        /* box-sizing: border-box; */
+        padding: 30px;
+        width: 70%;
+        margin: auto;
+       gap: 50px;
+    }
+    #demo_left{
+        color: white;
+        width: 60%;
+        padding: 20px;
+        box-sizing: content-box;
+    }
+    #demo_left>div>h1{
+        font-size: 50px;
+    }
+    #form_right{
+        background-color: white;
+        color: black;
+        padding: 30px;
+        width: 50%;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .input-icons>input{
+        border: none;
+        padding: 10px;
+        margin: 30px;
+        margin-left: 29px;
+        width: 85%;
+        text-align: left;
+        display: flex;
+        /* gap: 30px; */
+        justify-content: center;
+        align-items: center;
+    }
+    #nav_logo{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        justify-content: flex-end;
+        /* align-items: flex-end; */
+        background-color: inherit;
+        margin-top: 70px;
+    }
+    #nav_logo>img{
+        width: 15%;
+    }
+   
+    #hq{
+        margin-top: 30px;
+        /* padding: 20px; */
+    }
+    label{
+        padding-bottom: 200px;
+    }
+    #demo_book{
+        border: none;
+        padding: 10px;
+        font-size: large;
+        color: white;
+        background: linear-gradient(106.71deg, #4300A3 11.13%, #6100BB 65.15%, #A700F1 96.91%);
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    #demo_book:hover{
+        background-color: rgb(69,0,165);
+    }
+    #comp{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 50px;
+    }
+    #comp>img{
+        width: 13%;
+    }
+    #vp{
+        display: flex;
+        gap: 50px;
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #vp-left{
+        width: 45%;
+    }
+    #vp-left>p{
+        font-size: xx-large;
+    }
+    #vp-left>p:last-child{
+        font-size: large;
+        margin-top: -20px;
+    }
+    #vp-right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 45%;
+    }
+    #vp-right>img{
+        width: 50%;
+    }
+    hr{
+        margin: -2px;
+       border: 1px solid black;
+       width: 80%;
+       margin: auto;
+    }
+    #awards{
+        display: flex;
+        gap: 25px;
+       
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #awards>img{
+        width: 90px;
+        margin-bottom: 100px;
+    }
+    .lm-shield-container{
+        position: sticky;
+        bottom: 10px;
+        background-color: transparent;
+        margin: 20px;
+        /* font-size: xx-large; */
+        border-radius: 50% !important;
+        box-shadow: rgb(0 0 0 / 6%) 0px 1px 6px 0px, rgb(0 0 0 / 16%) 0px 2px 32px 0px !important;
+        width: 60px !important;
+        height: 60px !important;
+        background: #fff !important;
+        color: #fff !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        cursor: pointer !important;
+    }
+    </style>
+</head>
+<body>
+    <div id="nav_logo">
+        <img src="https://www.chargebee.com/static/resources/brand/chargebee-logo-white.svg" alt="">
+    </div>
+    <div id="form_and_demo">
+       
+      <div class="bg_shape"></div>
+        <div id="demo_left">
+            <div>
+                <h1>
+                    Elevate Your Subscription Experience with Chargebee
+                </h1>
+            </div>
+            <div>
+                <h2>
+                    Get a demo that's customized around your unique subscription workflows and pain-points.
+                </h2>
+            </div>
+        </div>
+        <div id="form_right">
+            <div style="max-width:400px;margin:auto">
+                <div class="input-icons">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field" type="text" placeholder="Your First Name">
+                    
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="email" placeholder="Your Mail ID">
+                    <i class="fa fa-mobile icon"></i>
+                    <input class="input-field" type="number" placeholder="Mobile Number">
+                    <i class="fa fa-globe icon"></i>
+                    <input class="input-field" type="url" placeholder="Your Website">
+                    <label for="hq" id="hq">Is your company headquartered in India?</label>
+                    <br>
+                     <label for="yes"><input type="radio" name="hq" id="yes" placeholder="Yes">Yes</label>
+                   <label for="no"> <input type="radio" name="hq" id="no" value="No">No</label>
+                   <br>
+                   <div style="margin: 50px;"></div>
+                   <label for="suggestion" >What problem can Chargebee solve for you?
+                    <br>
+                    <textarea id="suggestion" name="" rows="4" cols="50">
+                       
+                        </textarea>
+                   </label>
+                   <button id="demo_book">Schedule a Demo ></button>
+
+                   <p>
+                    By clicking on Schedule a Demo, you acknowledge having read our <a href="#">Privacy Notice</a> 
+                   </p>
+                </div>
+          </div>
+        </div>
+    </div>
+    <div id="comp">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/okta.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/calendly.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/freshworks.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/study-com.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/doodle.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/logos/envoy.svg" alt="">
+    </div>
+    <div id="vp">
+        <div id="vp-left">
+            <p>
+                Chargebee is a fantastic solution that really meets the needs of any online business from Saas to e-commerce. I have had experience with many platforms both as a leader and as a consultant, and Chargebee is the platform I have liked the most.
+            </p>
+            <h1>
+                Dailius Wilson
+            </h1>
+            <p>
+                VP Sales & Growth, GetAccept
+            </p>
+        </div>
+        <div id="vp-right">
+            <img src="https://webstatic.chargebee.com/assets/web/510/images/schedule-a-demo/dailius-wilson.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div id="awards">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/g2-badge-collection/chargebee-top-100-fastest-growing-products-g2.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/g2-badge-collection/chargebee-best-results-subscription-management-g2-spring.svg" alt="">
+        <img src="https://webstatic.chargebee.com/assets/web/510/images/g2-badge-collection/chargebee-leader-subscription-management-g2-spring.svg" alt="">
+    </div>
+    <div class="lm-shield-container" role="button"><span class="sr-only">Your cookie settings</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0e0e0e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+</body>
+</html>
