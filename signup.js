@@ -1,5 +1,4 @@
-let val = false;
-localStorage.setItem("val", JSON.stringify(val));
+
 
 document.getElementById("button").addEventListener("click",(event)=> {
     formFun(event);
@@ -19,9 +18,7 @@ let formFun = (event)=> {
             password : form.password.value,
             number : form.number.value,
         }
-        val = true;
 
-        localStorage.setItem("val", JSON.stringify(val));
         localStorage.setItem("userSignupData", JSON.stringify(userSignupData));
 
         // console.log(userSignupData);
