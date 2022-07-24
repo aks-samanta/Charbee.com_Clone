@@ -1,6 +1,6 @@
 let navbar= ()=>{
     return `<div id="left_nav">
-    <div><a href="./index.html"><img src="https://www.insightpartners.com//assets/media/2018/03/Chargebee.png"
+    <div><a href="/index.html"><img src="https://www.insightpartners.com//assets/media/2018/03/Chargebee.png"
                 alt=""></a></div>
 
     <div id="menu">
