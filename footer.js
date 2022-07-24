@@ -45,6 +45,6 @@ let icons=()=>{
 return `<a href="https://www.facebook.com/chargebee"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051309.png" alt=""></a>
 <a href="https://twitter.com/chargebee"> <img src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt=""></a>
 <a href="https://www.youtube.com/user/ChargeBeeStudio"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt=""></a>
-<a href="https://www.linkedin.com/company/chargebee"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536569.png?token=exp=1658497534~hmac=024bdae6c399a2cab48722cfc064c021" alt=""></a>`
+<a href="https://www.linkedin.com/company/chargebee"><img src="IMAGES/linkedin.png" alt=""></a>`
 }
 export{footer,icons}
