@@ -216,20 +216,21 @@ font-weight: bold;
     color: #181064;
 }
 
-#subsub{
+.subsub{
     display: flex;
     width: 80%;
     margin: auto;
     gap: 185px;
     margin-top: 135px;
+    padding-top: 100px;
 }
 /* #subsub>div:first-child{
     border: 1px solid red;
 } */
-#subsub>div>h3{
+.subsub>div>h3{
     font-weight: bolder;
 }
-#subsub>div>p{
+.subsub>div>p{
     font-size: 18px;
     color: gray;
 }
